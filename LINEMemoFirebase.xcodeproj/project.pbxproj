@@ -20,6 +20,7 @@
 		82FE24D522800C640004D760 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE24D422800C640004D760 /* Post.swift */; };
 		82FE24D7228123E90004D760 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE24D6228123E90004D760 /* PostViewController.swift */; };
 		82FE24D922812CC80004D760 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FE24D822812CC80004D760 /* GoogleService-Info.plist */; };
+		82FE24DB22815BBB0004D760 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82FE24DA22815BBB0004D760 /* 9.jpg */; };
 		BE5484E041911972494A00BA /* Pods_LINEMemoFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BE6ED2950815CDDABD42AC /* Pods_LINEMemoFirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		82FE24D422800C640004D760 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		82FE24D6228123E90004D760 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		82FE24D822812CC80004D760 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82FE24DA22815BBB0004D760 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		9296F089C939810C649B25F9 /* Pods_LINEMemoFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LINEMemoFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DEF2970C88797A8A884CAD /* Pods-LINEMemoFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LINEMemoFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-LINEMemoFirebaseUITests/Pods-LINEMemoFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3066BA1088E3C2077B4CC6A /* Pods_LINEMemoFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LINEMemoFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				82FE24D2228006EF0004D760 /* TimeLineViewController.swift */,
 				82FE24A4227FE2B00004D760 /* Main.storyboard */,
 				82FE24A7227FE2B10004D760 /* Assets.xcassets */,
+				82FE24DA22815BBB0004D760 /* 9.jpg */,
 				82FE24A9227FE2B10004D760 /* LaunchScreen.storyboard */,
 				82FE24AC227FE2B10004D760 /* Info.plist */,
 				82FE24D822812CC80004D760 /* GoogleService-Info.plist */,
@@ -288,6 +291,7 @@
 				82FE24D922812CC80004D760 /* GoogleService-Info.plist in Resources */,
 				82FE24AB227FE2B10004D760 /* LaunchScreen.storyboard in Resources */,
 				82FE24A8227FE2B10004D760 /* Assets.xcassets in Resources */,
+				82FE24DB22815BBB0004D760 /* 9.jpg in Resources */,
 				82FE24A6227FE2B00004D760 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

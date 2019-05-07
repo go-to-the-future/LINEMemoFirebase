@@ -8,11 +8,15 @@
 
 import UIKit
 import Firebase
+import SDWebImage
 class TimeLineViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     
     var displayName = String()
     var comment = String()
+    var pictureURLString = String()
+    
+    
     @IBOutlet weak var tableView: UITableView!
     let refreshControl = UIRefreshControl()
     var userName_Array = [String]()
@@ -65,7 +69,6 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
     
     func fetchData(){
         
-        
         self.userName_Array = [String]()
         self.comment_Array = [String]()
         self.posst = Post()
@@ -112,7 +115,7 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
          self.performSegue(withIdentifier: "post", sender: nil)
     }
     
-
+   
     /*
     // MARK: - Navigation
 
