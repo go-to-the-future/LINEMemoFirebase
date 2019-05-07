@@ -1,0 +1,6 @@
+framework module Pods_LINEMemoFirebaseUITests {
+  umbrella header "Pods-LINEMemoFirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
